@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_bar1_selector"
+        android:title="BAR1">
+
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/ic_bar2_selector"
+        android:title="BAR2">
+
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/ic_bar3_selector"
+        android:title="BAR3">
+
+    </item>
+
+
+</menu>
