@@ -23,10 +23,7 @@ class OneBottom : BottomNav(0) {
             val i = Intent(this, OneOneBottom::class.java)
             startActivity(i)
         }
-        button.setOnClickListener {
-            val i = Intent(this, ThreeThreeBottom::class.java)
-            startActivity(i)
-        }
+
 
     }
 }

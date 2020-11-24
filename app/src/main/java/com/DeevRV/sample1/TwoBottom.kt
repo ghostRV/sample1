@@ -8,6 +8,7 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.core.content.ContextCompat.startActivity
 import kotlinx.android.synthetic.main.activity_two_bottom.*
+import kotlinx.android.synthetic.main.app_bar.*
 
 class TwoBottom : BottomNav(1) {
     private val TAG = "TwoBottom"
@@ -25,7 +26,6 @@ class TwoBottom : BottomNav(1) {
         setSupportActionBar(toolbar)
 
     }
-
 
 
 }

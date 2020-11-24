@@ -3,6 +3,7 @@ package com.DeevRV.sample1
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import kotlinx.android.synthetic.main.app_bar.*
 
 class ThreeThreeBottom : BottomNav(2) {
     private val TAG = "ThreeThreeBottom"
@@ -11,5 +12,6 @@ class ThreeThreeBottom : BottomNav(2) {
         setContentView(R.layout.activity_three_three_bottom)
         Log.d(TAG, "OnCrate")
         setupBottomNavigation()
+        setSupportActionBar(toolbar)
     }
 }

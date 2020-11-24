@@ -9,8 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Sample1">
-        <activity android:name=".ThreeThreeBottom"></activity>
-        <activity android:name=".TwoTwoBottom" />
+        <activity android:name=".ThreeThreeBottom"
+            android:parentActivityName=".ThreeBottom">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ThreeBottom"/>
+            ></activity>
+        <activity android:name=".TwoTwoBottom"
+            android:parentActivityName=".TwoBottom">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TwoBottom"/>
+        </activity>
         <activity android:name=".OneOneBottom" />
         <activity android:name=".ThreeBottom" />
         <activity android:name=".TwoBottom" />
